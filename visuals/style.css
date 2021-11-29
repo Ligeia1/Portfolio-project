@@ -19,7 +19,6 @@ h2 {
   font-family: var(--heading-font);
   font-weight: 700;
   line-height: 85px;
-  margin-top: 110px;
 }
 
 p {
@@ -60,4 +59,8 @@ p {
   color: var(--secondary-color);
   font-size: 16px;
   line-height: 24px;
+}
+
+.project-description {
+  padding: 120px 60px;
 }
