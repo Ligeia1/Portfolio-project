@@ -85,3 +85,39 @@ p {
   border-radius: 90px;
   margin: 15px;
 }
+
+@media (max-width: 576px) {
+  h1,
+  h2,
+  h3,
+  p,
+  .btn-projects {
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 60px;
+    line-height: 1.5;
+  }
+
+  h2 {
+    font-size: 40px;
+  }
+
+  .project-image,
+  .work-inquiry {
+    display: none !important;
+  }
+
+  .hero {
+    padding: 90px 20px;
+  }
+
+  .hero p {
+    font-size: 18px;
+  }
+
+  .project-description {
+    padding: 10px 20px;
+  }
+}
