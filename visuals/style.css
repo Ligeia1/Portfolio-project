@@ -47,7 +47,7 @@ nav li {
   margin-left: 15px;
 }
 
-nav li.active a,
+nav li .active,
 nav a:hover {
   color: var(--secondary-color);
 }
@@ -137,6 +137,14 @@ nav a {
 
   h2 {
     font-size: 40px;
+  }
+
+  small {
+    font-size: 10px;
+  }
+
+  nav {
+    font-size: 11px;
   }
 
   .project-image,
