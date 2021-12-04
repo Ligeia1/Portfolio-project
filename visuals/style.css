@@ -90,6 +90,11 @@ nav a {
   font-size: 30px;
 }
 
+.contact-heading {
+  background-color: var(--primary-color);
+  padding: 80px;
+}
+
 .hero h2 {
   font-weight: 700;
   font-size: 36px;
