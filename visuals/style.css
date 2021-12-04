@@ -67,6 +67,7 @@ nav a {
 
 .logo {
   color: black;
+  font-weight: bold;
   padding: 6px 10px;
   border: 1px solid var(--secondary-color);
   opacity: 0.6;
@@ -88,6 +89,7 @@ nav a {
 
 .contact-logo {
   font-size: 30px;
+  color: var(--secondary-color);
 }
 
 .contact-heading {
