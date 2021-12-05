@@ -81,8 +81,9 @@ nav a {
 
 .btn-branding:hover,
 .contact-button:hover {
-  background-color: #8c86fc;
-  color: var(--primary-color);
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  border-color: var(--secondary-color);
 }
 
 .btn-projects {
