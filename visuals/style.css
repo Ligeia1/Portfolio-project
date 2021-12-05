@@ -79,6 +79,12 @@ nav a {
   line-height: 27px;
 }
 
+.btn-branding:hover,
+.contact-button:hover {
+  background-color: #8c86fc;
+  color: var(--primary-color);
+}
+
 .btn-projects {
   padding: 15px 35px;
   border-radius: 4px;
@@ -87,6 +93,11 @@ nav a {
   color: var(--secondary-color);
   font-size: 16px;
   line-height: 24px;
+}
+
+.btn-projects:hover {
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
 }
 
 .content-container h3 {
