@@ -195,22 +195,21 @@ nav a {
     font-size: 40px;
   }
 
+  nav {
+    font-size: 11px;
+  }
+
   small {
     font-size: 10px;
   }
 
-  nav {
-    font-size: 11px;
+  .about-me {
+    padding: 0 !important;
   }
 
   .heading-background {
     margin: 0 !important;
     padding: 50px;
-  }
-
-  .project-image,
-  .work-inquiry {
-    display: none !important;
   }
 
   .hero {
@@ -219,6 +218,11 @@ nav a {
 
   .hero p {
     font-size: 18px;
+  }
+
+  .project-image,
+  .work-inquiry {
+    display: none !important;
   }
 
   .project-description {
